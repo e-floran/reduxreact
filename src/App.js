@@ -1,10 +1,10 @@
 import './App.css';
-import CounterComponent from "./components/CounterContainer";
+import CountComponent from "./components/CountContainer";
 
 function App() {
   return (
     <div className="App">
-      <CounterComponent />
+      <CountComponent />
     </div>
   );
 }

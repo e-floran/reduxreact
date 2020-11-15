@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 const mapStateToProps = state => ({
-  light: state
+  count: state
 });
 
 const CountComponent = ({ count, dispatch }) => (
